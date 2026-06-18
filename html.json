@@ -1,8 +1,8 @@
 {
-    "url": "https://github.com/eh-amish/Swagger/blob/main/html.yaml",
+    "url": "https://raw.githubusercontent.com/eh-amish/Swagger/blob/main/html.yaml",
     "urls": [
         {
-            "url": "https://github.com/eh-amish/Swagger/html.yaml",
+            "url": "https://raw.githubusercontent.com/eh-amish/Swagger/blob/main/html.yaml",
             "name": "Test"
         }
     ]
