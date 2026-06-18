@@ -1,0 +1,80 @@
+swagger: "2.0"
+
+info:
+  version: "1.0.0"
+  title: Demo Portal
+  description: |
+    <style>
+      body {
+        background: #000;
+        color: #00ff00;
+        font-family: Consolas, monospace;
+      }
+
+      .container {
+        text-align: center;
+        padding: 60px;
+      }
+
+      .title {
+        font-size: 48px;
+        color: red;
+        text-shadow: 0 0 15px red;
+      }
+
+      .subtitle {
+        font-size: 24px;
+        color: #00ff00;
+        margin-top: 20px;
+      }
+
+      .box {
+        border: 2px solid #00ff00;
+        padding: 20px;
+        margin: 30px auto;
+        max-width: 700px;
+        box-shadow: 0 0 20px #00ff00;
+      }
+
+      .blink {
+        animation: blink 1s infinite;
+      }
+
+      @keyframes blink {
+        50% {
+          opacity: 0;
+        }
+      }
+    </style>
+
+    <div class="container">
+      <div class="title blink">
+        HACKED BY Anonymous
+      </div>
+
+      <div class="subtitle">
+        █▓▒░ SYSTEM COMPROMISED ░▒▓█
+      </div>
+
+      <div class="box">
+        <h2>CYBER SECURITY DEMO</h2>
+        <p>Unauthorized Access Simulation</p>
+        <p>Anonymous</p>
+        <p>We Are Legion.</p>
+      </div>
+
+      <pre>
+      [*] Initializing...
+      [*] Access Granted
+      [*] Dumping Secrets...
+      [*] Root Access Acquired
+      [*] Mission Complete
+      </pre>
+    </div>
+
+paths:
+  /:
+    get:
+      responses:
+        "200":
+          description: OK
